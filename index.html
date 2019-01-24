@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+  <button class="left" id="prevBtn" onclick="prevScroll()"><</button>
+  <div class="maindiv" id="carousel">
+    <div class="contentdiv" id="posters">
+      <div class="poster selected" id="poster1"></div>
+      <div class="poster" id="poster2"></div>
+      <div class="poster" id="poster3"></div>
+      <div class="poster2" id="poster4"></div>
+      <div class="poster" id="poster5"></div>
+    </div>
+    </div>
+  <button class="right" id="nextBtn" onclick="nextScroll()">></button>
+</div>
+<div class="container2">
+  <div class="head">
+    <h3 id="title">Gundown (2011)</h3>
+    <a id="imdbLink" target="_blank" href="https://www.imdb.com/title/tt3421996/?ref_=nm_knf_i1"><img src="https://ia.media-imdb.com/images/M/MV5BMTk3ODA4Mjc0NF5BMl5BcG5nXkFtZTgwNDc1MzQ2OTE@._V1_.png"></a>
+  </div>
+  <iframe id="ytLink" width="600" height="355" src="https://www.youtube.com/embed/wBEuplqyxxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="details">
+    <div class="syn">
+      <p id="synopsis">Synopsis:</p>
+    </div>
+    <div class="cast">
+      <p id="cast">Cast: Gonzalo Barcel & Ana Feijoo<br>
+         Art Director: Manuel Moreno<br>
+         Cinematographer: Fernando Marron<br>
+         Producer: Adriana Garcia
+         Writer & Director: Renato Brea<br>
+         Specs: 16mm Film
+      </p>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
