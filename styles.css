@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+}
+
+::-webkit-scrollbar {
+  visibility: hidden;
+  height: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202223;
+  margin: 25px;
+  padding: 25px;
+}
+
+.maindiv {
+  display: inline-block;
+  background-color: transparent;
+  margin: 0;
+  width: 600px;
+  height: 300px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.contentdiv {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 1250px;
+  height: 300px;
+  background-color: transparent;
+  margin: 0;
+}
+
+.poster {
+  margin: 30px;
+  background-color: lightgrey;
+  width: 100px;
+  height: 125px;
+  transition: 1s;
+}
+
+.poster2 {
+  margin: 30px;
+  background-color: lightgrey;
+  width: 100px;
+  height: 100px;
+  transition: 1s;
+}
+
+.selected {
+  width: 200px;
+  height: 250px;
+  box-shadow: 5px 5px 10px black, -5px 5px 10px black;
+}
+
+.selected2 {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 10px black, -5px 5px 10px black;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightgrey;
+  display: inline-block;
+  margin: 0;
+  opacity: 0.5;
+  position: relative;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.left {
+  left: 50px;
+}
+
+.right {
+  right: 50px;
+}
+
+#poster1 {
+  background-image: url('http://renatobrea.com/wp-content/uploads/2018/09/Gundown-Poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#poster2 {
+  background-image: url('http://renatobrea.com/wp-content/uploads/2018/09/E%C3%B3n-Poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#poster3 {
+  background-image: url('http://renatobrea.com/wp-content/uploads/2018/09/F%C3%B3tico-Poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#poster4 {
+  background-image: url('http://renatobrea.com/wp-content/uploads/2018/09/ElAltosq.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container2 {
+  background-color: #202223;
+  margin: 25px;
+  padding: 25px;
+}
+
+h3 {
+  display: block;
+  float: left;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #f4f4f4;
+  text-align: left;
+}
+
+.details {
+  width: 600px;
+  margin: auto;
+  display: flex;
+}
+
+.details > div {
+  flex-grow: 1;
+  display: inline-block;
+  color: #f4f4f4;
+  font-family: sans-serif;
+  width: 200px;
+  height: 300px;
+  margin: 0;
+  padding: 15px 0;
+
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  width: 50px;
+  float: right;
+  transition: 0.5s;
+}
+
+.head {
+  width: 600px;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover img{
+  opacity: 0.5;
+  transition: 0.5s;
+}
